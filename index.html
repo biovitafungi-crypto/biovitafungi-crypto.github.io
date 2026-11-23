@@ -1,4 +1,4 @@
-<!-- VERSION: 2026-11-23-v13 — imágenes en /img, precios al 22/11/2026, triple extracción. Todos los links de compra deben ir a biovitafungi.mitiendanube.com (los /productos/ no existen en www.biovitafungi.com). -->
+<!-- VERSION: 2026-11-23-v14 — imágenes en /img, precios al 22/11/2026, triple extracción. Todos los links de compra deben ir a biovitafungi.mitiendanube.com (los /productos/ no existen en www.biovitafungi.com). -->
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
@@ -654,6 +654,7 @@
   .moment-card{background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:20px;}
   .moment-icon{width:40px;height:40px;border-radius:12px;background:var(--beige);display:grid;place-items:center;margin-bottom:12px;}
   .moment-icon svg{width:22px;height:22px;fill:none;stroke:var(--moss);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+  .moment-chip.moment-kit{background:var(--moss-deep);color:var(--cream);border-color:var(--moss-deep);}
   .moment-card h4{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--moss-deep);margin-bottom:12px;}
   .moment-chips{display:flex;flex-wrap:wrap;gap:8px;}
   .moment-chip{font-size:13px;padding:7px 14px;border-radius:999px;border:1px solid var(--moss);color:var(--moss-deep);transition:all .2s ease;}
@@ -663,6 +664,9 @@
   .price-cuotas{display:block;font-size:11px;color:var(--earth-soft);margin-top:-8px;margin-bottom:12px;}
   .pick .price-cuotas{margin-top:2px;margin-bottom:0;}
   .picks-grid-5{grid-template-columns:repeat(5,1fr);}
+  .picks-grid-3{grid-template-columns:repeat(3,1fr);}
+  .pick{position:relative;}
+  .picks-grid-3 .pick .ph-image{height:190px;}
   @media(max-width:1100px){.picks-grid-5{grid-template-columns:repeat(3,1fr);}}
   @media(max-width:760px){
     .picks-grid, .picks-grid-5{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:20px;gap:14px;margin:0 -20px;padding:4px 20px 14px;scrollbar-width:none;}
@@ -1061,7 +1065,7 @@
       <a href="https://biovitafungi.mitiendanube.com/productos/" target="_blank" rel="noopener">Ver todo el catálogo →</a>
     </div>
     <p class="swipe-hint" aria-hidden="true">Deslizá para ver más →</p>
-    <div class="picks-grid">
+    <div class="picks-grid picks-grid-3">
       <div class="pick reveal">
         <div class="ph-image photo no-credit "><img src="img/productos/tripack-biovita.webp" alt="Tripack BioVita: Melena de León, Reishi y Cordyceps" width="720" height="720" loading="lazy" decoding="async"></div>
         <h3>Tripack BioVita | Melena de León + Reishi + Cordyceps (3 x 50ml)</h3>
@@ -1072,6 +1076,30 @@
         <span class="price-transfer mono">$71.250 con transferencia</span>
         <span class="price-cuotas">o hasta 24 cuotas según banco</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/tripack-bienestar-adaptogenos-50ml/" target="_blank" rel="noopener">Comprar</a>
+      </div>
+      <div class="pick reveal">
+        <span class="new-tag mono">Nuevo</span>
+        <div class="ph-image photo no-credit"><img src="img/productos/kit-foco.webp" alt="Kit Foco BioVita: Melena de León y Cordyceps" width="720" height="720" loading="lazy" decoding="async"></div>
+        <h3>Kit Foco | Melena de León + Cordyceps (2 x 50ml)</h3>
+        <div class="price-row">
+          <span class="price-now">$45.000</span>
+          <span class="price-was">$60.000</span>
+        </div>
+        <span class="price-transfer mono">$42.750 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
+        <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/kit-foco-biovita-melena-de-leon-cordyceps-2-x-50ml-1cemw/" target="_blank" rel="noopener">Comprar</a>
+      </div>
+      <div class="pick reveal">
+        <span class="new-tag mono">Nuevo</span>
+        <div class="ph-image photo no-credit"><img src="img/productos/kit-descanso.webp" alt="Kit Descanso BioVita: Reishi, Lavanda y Ashwagandha" width="720" height="720" loading="lazy" decoding="async"></div>
+        <h3>Kit Descanso | Reishi + Lavanda + Ashwagandha (3 x 50ml)</h3>
+        <div class="price-row">
+          <span class="price-now">$75.000</span>
+          <span class="price-was">$90.000</span>
+        </div>
+        <span class="price-transfer mono">$71.250 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
+        <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/kit-descanso-biovita-reishi-lavanda-ashwagandha-3-x-50ml-8gmrw/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="pick reveal">
         <div class="ph-image photo no-credit "><img src="img/productos/combo-2-extractos.webp" alt="Combo de 2 extractos triples a elección" width="720" height="720" loading="lazy" decoding="async"></div>
@@ -1177,7 +1205,7 @@
         <div class="moment-card">
           <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="4"/><path d="M12 3v3M4.2 6.2l2.1 2.1M19.8 6.2l-2.1 2.1M2 17h20M5 21h14"/></svg></span>
           <h4>A la mañana</h4>
-          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-melena-de-leon-50ml-biovita/" target="_blank" rel="noopener">Melena de León</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cordyceps-50ml-biovita/" target="_blank" rel="noopener">Cordyceps</a></div>
+          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-melena-de-leon-50ml-biovita/" target="_blank" rel="noopener">Melena de León</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cordyceps-50ml-biovita/" target="_blank" rel="noopener">Cordyceps</a><a class="moment-chip moment-kit" href="https://biovitafungi.mitiendanube.com/productos/kit-foco-biovita-melena-de-leon-cordyceps-2-x-50ml-1cemw/" target="_blank" rel="noopener">Kit Foco</a></div>
         </div>
         <div class="moment-card">
           <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
@@ -1187,7 +1215,7 @@
         <div class="moment-card">
           <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></span>
           <h4>A la tarde o noche</h4>
-          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-reishi-50ml-biovita/" target="_blank" rel="noopener">Reishi</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-lavanda-50ml-biovita/" target="_blank" rel="noopener">Lavanda</a></div>
+          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-reishi-50ml-biovita/" target="_blank" rel="noopener">Reishi</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-lavanda-50ml-biovita/" target="_blank" rel="noopener">Lavanda</a><a class="moment-chip moment-kit" href="https://biovitafungi.mitiendanube.com/productos/kit-descanso-biovita-reishi-lavanda-ashwagandha-3-x-50ml-8gmrw/" target="_blank" rel="noopener">Kit Descanso</a></div>
         </div>
       </div>
       <p class="moments-foot">¿Ashwagandha, Chaga, Maitake, Gírgolas o Cardo Mariano? ¿No sabés cuál elegir? <a href="https://wa.me/5492236887802?text=Hola%20BioVita%21%20Quiero%20ayuda%20para%20elegir%20un%20extracto." target="_blank" rel="noopener">Escribinos y te ayudamos</a></p>
