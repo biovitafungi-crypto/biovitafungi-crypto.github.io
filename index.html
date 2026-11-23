@@ -1,4 +1,4 @@
-<!-- VERSION: 2026-11-22-v3 — imágenes en /img, precios al 22/11/2026, triple extracción. Todos los links de compra deben ir a biovitafungi.mitiendanube.com (los /productos/ no existen en www.biovitafungi.com). -->
+<!-- VERSION: 2026-11-22-v4 — imágenes en /img, precios al 22/11/2026, triple extracción. Todos los links de compra deben ir a biovitafungi.mitiendanube.com (los /productos/ no existen en www.biovitafungi.com). -->
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
@@ -7,7 +7,7 @@
 <title>BioVita Fungi | Extractos de hongos de triple extracción · Mar del Plata</title>
 <meta name="description" content="Extractos de triple extracción de Melena de León, Reishi, Cordyceps y más, micelio para cultivar en casa y cosmética natural. Hecho en Mar del Plata, envíos a todo el país.">
 <link rel="canonical" href="https://www.biovitafungi.com/">
-<meta name="theme-color" content="#2B3624">
+<meta name="theme-color" content="#1F3A27">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -23,6 +23,7 @@
 <meta property="og:image:alt" content="Goteros de extractos BioVita Fungi">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="img/hero-melena-de-leon.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Hacen envíos a todo el país?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, enviamos a toda la Argentina por Correo Argentino y Andreani. El envío es gratis en compras desde $50.000."}}, {"@type": "Question", "name": "¿Cómo se toma un extracto?", "acceptedAnswer": {"@type": "Answer", "text": "Agitá el frasco y usá el gotero: unas gotas debajo de la lengua o en agua, jugo, café o infusión. La cantidad cambia según el extracto y está indicada en el rótulo."}}, {"@type": "Question", "name": "¿Cuál me conviene?", "acceptedAnswer": {"@type": "Answer", "text": "Mirá la guía \"Elegí por momento del día\" o escribinos por WhatsApp y te ayudamos a elegir."}}, {"@type": "Question", "name": "¿Puedo combinar varios extractos?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, muchos clientes combinan dos o tres. Respetá la porción indicada en el rótulo de cada uno y, ante cualquier duda, consultá a tu médico."}}, {"@type": "Question", "name": "¿Se pueden tomar en el embarazo o la lactancia?", "acceptedAnswer": {"@type": "Answer", "text": "No los recomendamos en embarazo, lactancia ni para niños. Ante cualquier duda, consultá a tu médico."}}, {"@type": "Question", "name": "¿Cómo los conservo?", "acceptedAnswer": {"@type": "Answer", "text": "Guardalos bien cerrados, en un lugar fresco y lejos de la luz directa del sol."}}, {"@type": "Question", "name": "¿Qué medios de pago aceptan?", "acceptedAnswer": {"@type": "Answer", "text": "Nuvempago, Mercado Pago y PayPal. Tarjetas de crédito y débito, hasta 24 cuotas según banco, y transferencia o depósito con 5% de descuento."}}, {"@type": "Question", "name": "¿Venden a comercios y revendedores?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Tenemos una oferta de 10 extractos a precio revendedor y condiciones mayoristas por volumen. Mirá la sección Revendedores o escribinos por WhatsApp."}}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "BioVita Fungi", "slogan": "La ciencia de lo eterno", "description": "Extractos de triple extracción de Melena de León, Reishi, Cordyceps y más, micelio para cultivar en casa y cosmética natural. Hecho en Mar del Plata, envíos a todo el país.", "url": "https://www.biovitafungi.com/", "logo": "https://www.biovitafungi.com/img/apple-touch-icon.png", "image": "https://www.biovitafungi.com/img/og-biovita.jpg", "telephone": "+54 9 223 688-7802", "address": {"@type": "PostalAddress", "streetAddress": "Bermejo 2184", "addressLocality": "Mar del Plata", "addressRegion": "Buenos Aires", "addressCountry": "AR"}, "areaServed": "AR", "sameAs": ["https://www.instagram.com/biovita.fungi/", "https://www.facebook.com/BiovitaFungi", "https://www.youtube.com/@BioVitaFungi", "https://www.tiktok.com/@biovitafungi", "https://biovitafungi.mitiendanube.com/"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +33,12 @@
     --beige:#F8ECD6;
     --beige-light:#FDF6EC;
     --cream:#FEFAF5;
-    --moss:#3C4A32;
-    --moss-deep:#2B3624;
-    --moss-soft:#5C6B48;
-    --earth:#5F4229;
+    --moss:#2D5137;
+    --moss-deep:#1F3A27;
+    --moss-soft:#4F6E57;
+    --earth:#5D4426;
     --earth-soft:#8A6A45;
-    --gold:#C6A15B;
+    --gold:#C98A20;
     --ink:#26241C;
     --line: rgba(38,36,28,0.12);
     --line-light: rgba(251,248,241,0.16);
@@ -558,6 +559,42 @@
   .ig-more a{color:var(--moss);border-bottom:1px solid var(--moss-soft);}
   @media(max-width:900px){.ig-card{grid-template-columns:1fr;padding:32px 26px;gap:22px;}.ig-side .btn{width:100%;justify-content:center;}}
 
+
+  /* ================= MOMENTOS ================= */
+  .moments{margin:56px 0 64px;background:var(--beige-light);border:1px solid var(--line);border-radius:22px;padding:36px 36px 28px;}
+  .moments-head h3{font-size:clamp(1.4rem,2.2vw,1.9rem);margin:10px 0 6px;}
+  .moments-head p{color:var(--earth-soft);font-size:14px;max-width:560px;}
+  .moments-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px;}
+  .moment-card{background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:20px;}
+  .moment-icon{width:40px;height:40px;border-radius:12px;background:var(--beige);display:grid;place-items:center;margin-bottom:12px;}
+  .moment-icon svg{width:22px;height:22px;fill:none;stroke:var(--moss);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+  .moment-card h4{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--moss-deep);margin-bottom:12px;}
+  .moment-chips{display:flex;flex-wrap:wrap;gap:8px;}
+  .moment-chip{font-size:13px;padding:7px 14px;border-radius:999px;border:1px solid var(--moss);color:var(--moss-deep);transition:all .2s ease;}
+  .moment-chip:hover{background:var(--moss);color:var(--cream);}
+  .moments-foot{margin-top:18px;font-size:13px;color:var(--earth-soft);}
+  .moments-foot a{color:var(--moss);border-bottom:1px solid var(--moss-soft);}
+  .price-cuotas{display:block;font-size:11px;color:var(--earth-soft);margin-top:-8px;margin-bottom:12px;}
+  .pick .price-cuotas{margin-top:2px;margin-bottom:0;}
+  @media(max-width:900px){.moments-grid{grid-template-columns:1fr;}.moments{padding:28px 22px 22px;}}
+
+  /* ================= FAQ ================= */
+  #faq{background:var(--beige-light);}
+  .faq-wrap{display:grid;grid-template-columns:0.8fr 1.2fr;gap:56px;align-items:start;}
+  .faq-head h2{font-size:clamp(1.8rem,3vw,2.5rem);margin:12px 0 12px;line-height:1.15;}
+  .faq-head p{color:var(--earth-soft);font-size:15px;}
+  .faq-head a{color:var(--moss);border-bottom:1px solid var(--moss-soft);}
+  .faq-list{display:grid;gap:10px;}
+  .faq-item{background:var(--cream);border:1px solid var(--line);border-radius:14px;padding:0 22px;}
+  .faq-item summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0;font-weight:600;color:var(--moss-deep);font-size:15px;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-plus{position:relative;width:14px;height:14px;flex-shrink:0;}
+  .faq-plus::before,.faq-plus::after{content:"";position:absolute;left:0;top:6px;width:14px;height:2px;background:var(--moss);transition:transform .2s ease;}
+  .faq-plus::after{transform:rotate(90deg);}
+  .faq-item[open] .faq-plus::after{transform:rotate(0deg);}
+  .faq-item p{padding:0 0 18px;color:#54503f;font-size:14.5px;line-height:1.6;}
+  @media(max-width:900px){.faq-wrap{grid-template-columns:1fr;gap:28px;}}
+
   /* ================= TESTIMONIOS (sin uso) ================= */
   #testimonios{background:var(--beige);}
   .quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;}
@@ -878,6 +915,7 @@
           <span class="price-was">$90.000</span>
         </div>
         <span class="price-transfer mono">$71.250 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/tripack-bienestar-adaptogenos-50ml/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="pick reveal">
@@ -888,6 +926,7 @@
           <span class="price-was">$60.000</span>
         </div>
         <span class="price-transfer mono">$42.750 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/promo-2-extractos-dobles-a-eleccion/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="pick reveal">
@@ -898,6 +937,7 @@
           <span class="price-was">$50.000</span>
         </div>
         <span class="price-transfer mono">$33.250 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/pack-ahorro-crema-tremella-aloe-vera/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="pick reveal">
@@ -907,8 +947,35 @@
           <span class="price-now">$30.000</span>
         </div>
         <span class="price-transfer mono">$28.500 con transferencia</span>
+        <span class="price-cuotas">o hasta 24 cuotas según banco</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/micelio-en-grano-pleurotus-1kg/" target="_blank" rel="noopener">Comprar</a>
       </div>
+    </div>
+
+    <div class="moments reveal" id="momentos">
+      <div class="moments-head">
+        <span class="eyebrow mono">Elegí por momento del día</span>
+        <h3>¿Cuándo lo vas a sumar a tu rutina?</h3>
+        <p>Así los eligen la mayoría de nuestros clientes, según el momento de toma que indica cada ficha.</p>
+      </div>
+      <div class="moments-grid">
+        <div class="moment-card">
+          <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="4"/><path d="M12 3v3M4.2 6.2l2.1 2.1M19.8 6.2l-2.1 2.1M2 17h20M5 21h14"/></svg></span>
+          <h4>A la mañana</h4>
+          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-melena-de-leon-50ml-biovita/" target="_blank" rel="noopener">Melena de León</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cordyceps-50ml-biovita/" target="_blank" rel="noopener">Cordyceps</a></div>
+        </div>
+        <div class="moment-card">
+          <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+          <h4>En cualquier momento</h4>
+          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-tremella-50ml-biovita/" target="_blank" rel="noopener">Tremella</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cola-de-pavo-50ml-biovita/" target="_blank" rel="noopener">Cola de pavo</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-blendbmix-50ml-biovita/" target="_blank" rel="noopener">Blend Mix</a></div>
+        </div>
+        <div class="moment-card">
+          <span class="moment-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></span>
+          <h4>A la tarde o noche</h4>
+          <div class="moment-chips"><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-reishi-50ml-biovita/" target="_blank" rel="noopener">Reishi</a><a class="moment-chip" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-lavanda-50ml-biovita/" target="_blank" rel="noopener">Lavanda</a></div>
+        </div>
+      </div>
+      <p class="moments-foot">¿Ashwagandha o no sabés cuál elegir? <a href="https://wa.me/5492236887802?text=Hola%20BioVita%21%20Quiero%20ayuda%20para%20elegir%20un%20extracto." target="_blank" rel="noopener">Escribinos y te ayudamos</a></p>
     </div>
 
     <div class="extracts-head reveal">
@@ -919,56 +986,56 @@
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63020-81eb702548ac4f7d9217826767042598-1024-1024.webp');"></div>
         <h4>Extracto triple Melena de León 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-melena-de-leon-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/reishi-6d0538b0c133c347e317845054162957-1024-1024.webp');"></div>
         <h4>Extracto triple Reishi 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-reishi-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63016-c2e22805f294d44e8917826922012176-1024-1024.webp');"></div>
         <h4>Extracto triple Cordyceps 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cordyceps-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63018-436dd0d20106e20c1017826927971415-1024-1024.webp');"></div>
         <h4>Extracto triple Cola de pavo 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-cola-de-pavo-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63036-62392e85a33161fc8817826925235680-1024-1024.webp');"></div>
         <h4>Extracto triple Lavanda 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-lavanda-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63032-f5755f5a848d61a1a417826923713930-1024-1024.webp');"></div>
         <h4>Extracto triple Tremella 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-tremella-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/63027-76644ec2fe6a2a5a0017826930571706-1024-1024.webp');"></div>
         <h4>Extracto triple Blend Mix 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-blendbmix-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
       <div class="extract-card reveal">
         <div class="ph-image photo no-credit" style="background-image:url('https://dcdn-us.mitiendanube.com/stores/006/855/377/products/20260628_155508-00fbea80e3b402a85817832319862079-1024-1024.webp');"></div>
         <h4>Extracto triple Ashwagandha 50ml BioVita</h4>
         <div class="price-row"><span class="price-now">$30.000</span></div>
-        <span class="price-transfer mono">$28.500 c/transf.</span>
+        <span class="price-transfer mono">$28.500 c/transf.</span><span class="price-cuotas">o en cuotas con tarjeta</span>
         <a class="buy" href="https://biovitafungi.mitiendanube.com/productos/extracto-doble-ashwaganda-50ml-biovita/" target="_blank" rel="noopener">Comprar</a>
       </div>
     </div>
@@ -1072,7 +1139,7 @@
     <div class="reveal">
       <span class="eyebrow on-dark mono">Red de distribución</span>
       <h2>Presencia en todo el país</h2>
-      <p class="section-lead">BioVita Fungi llega a través de distribuidores y revendedores oficiales en distintos puntos del país. Encontrá el contacto más cercano a vos.</p>
+      <p class="section-lead">Nuestra sede central está en Mar del Plata y el laboratorio, en San Rafael, Mendoza. Además llegamos a través de distribuidores y revendedores oficiales: encontrá el contacto más cercano a vos.</p>
     </div>
     <div class="presencia-grid">
 
@@ -1093,12 +1160,12 @@
 
       <!-- San Rafael, Mendoza -->
       <div class="presencia-card reveal">
-        <span class="p-eyebrow">Revendedor oficial</span>
+        <span class="p-eyebrow">Laboratorio sede</span>
         <h3>San Rafael</h3>
         <p class="p-prov">Mendoza</p>
         <span class="p-badge">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-          Contacto directo
+          Revendedor oficial
         </span>
         <a class="wa-btn-p" href="https://wa.me/5492604589437" target="_blank" rel="noopener">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.123 1.532 5.856L.054 23.447a.75.75 0 00.918.943l5.82-1.527A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.732 9.732 0 01-5.031-1.399l-.36-.214-3.733.979.997-3.648-.235-.374A9.718 9.718 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
@@ -1242,6 +1309,51 @@
   </div>
 </section>
 
+<!-- ============ PREGUNTAS FRECUENTES ============ -->
+<section id="faq" class="section">
+  <div class="wrap faq-wrap">
+    <div class="faq-head reveal">
+      <div class="eyebrow mono">Preguntas frecuentes</div>
+      <h2>Lo que más nos preguntan</h2>
+      <p>¿No encontrás tu respuesta? <a href="https://wa.me/5492236887802" target="_blank" rel="noopener">Escribinos por WhatsApp</a>.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>¿Hacen envíos a todo el país?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Sí, enviamos a toda la Argentina por Correo Argentino y Andreani. El envío es gratis en compras desde $50.000.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cómo se toma un extracto?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Agitá el frasco y usá el gotero: unas gotas debajo de la lengua o en agua, jugo, café o infusión. La cantidad cambia según el extracto y está indicada en el rótulo.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cuál me conviene?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Mirá la guía "Elegí por momento del día" o escribinos por WhatsApp y te ayudamos a elegir.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo combinar varios extractos?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Sí, muchos clientes combinan dos o tres. Respetá la porción indicada en el rótulo de cada uno y, ante cualquier duda, consultá a tu médico.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Se pueden tomar en el embarazo o la lactancia?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>No los recomendamos en embarazo, lactancia ni para niños. Ante cualquier duda, consultá a tu médico.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cómo los conservo?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Guardalos bien cerrados, en un lugar fresco y lejos de la luz directa del sol.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué medios de pago aceptan?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Nuvempago, Mercado Pago y PayPal. Tarjetas de crédito y débito, hasta 24 cuotas según banco, y transferencia o depósito con 5% de descuento.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Venden a comercios y revendedores?<span class="faq-plus" aria-hidden="true"></span></summary>
+        <p>Sí. Tenemos una oferta de 10 extractos a precio revendedor y condiciones mayoristas por volumen. Mirá la sección Revendedores o escribinos por WhatsApp.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- ============ CONTACTO ============ -->
 <section id="contacto" class="section">
   <div class="wrap contact-grid">
@@ -1292,6 +1404,7 @@
         </ul>
         <ul>
           <li><a href="https://biovitafungi.mitiendanube.com/biovita-fungi/" target="_blank" rel="noopener">Sobre BioVita Fungi</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
           <li><a href="https://biovitafungi.mitiendanube.com/como-comprar/" target="_blank" rel="noopener">Cómo comprar</a></li>
           <li><a href="https://biovitafungi.mitiendanube.com/politica-de-devolucion/" target="_blank" rel="noopener">Política de devolución</a></li>
           <li><a href="https://biovitafungi.mitiendanube.com/blog/" target="_blank" rel="noopener">Blog — Aprendé con nosotros</a></li>
